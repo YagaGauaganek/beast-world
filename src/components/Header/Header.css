@@ -1,0 +1,13 @@
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+.header__heading {
+    font-size: 6.5rem;
+    font-weight: 600;
+    color: blanchedalmond;
+}

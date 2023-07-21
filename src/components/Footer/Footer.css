@@ -1,0 +1,14 @@
+.footer {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0
+    ;
+}
+
+.footer__copy {
+    font-size: 1.5rem;
+    color: black;
+    font-family: fantasy;
+    font-style: italic;
+}
