@@ -35,7 +35,7 @@ function App() {
         <Header />
         <form>
         <label className='horns-label' htmlFor='hornsInput'>Select Beast by horns</label>
-        <select name='selectedHorns' id="hornsInput" onChange={handleBeasts}>
+        <select className='horns-select' name='selectedHorns' id="hornsInput" onChange={handleBeasts}>
           <option value="">all</option>
           <option value="1">1</option>
           <option value="2">2</option>

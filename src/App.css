@@ -43,3 +43,13 @@
     transform: rotate(360deg);
   }
 }
+
+.horns-label {
+  font-size: 3rem;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.horns-select {
+  font-size: 2rem;
+}

@@ -8,7 +8,7 @@
 }
 
 .beast-modal {
-    background: rgb(106, 19, 2);
+    background-color: rgba(238, 232, 170, 0.619);
     width: 70vw;
     position: fixed;
     top: 50%;
@@ -18,26 +18,31 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem 1rem;
-    border: mediumseagreen 3px solid;
+    border: mediumaquamarine 10px solid;
+    /* border-radius: 2%; */
     border: 5%;
+
 }
 
-.beast-modal img {
+/* .beast-modal img {
     max-width: 80%;
-}
+} */
 
 .beast-modal h3 {
     background-color: inherit;
-    color: wheat;
+    color: black;
     font-weight: 700;
-    font-size: 2rem;
-    font-family: cursive;
+    font-size: 3rem;
+    font-family: fantasy;
+    letter-spacing: 0.5rem;
     padding: 1rem;
 }
 
 .beast-modal p {
     background-color: inherit;
-    color: white;
+    color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
 }
 
@@ -46,7 +51,20 @@
     top: 1rem;
     right: 1rem;
     font-size: 1.25rem;
+    font-weight: 700;
     padding: 0.5rem;
     cursor: pointer;
-    background-color: mediumseagreen;
+    position: flex;
+    justify-content: flex-end;
+    background-color: palevioletred;
+
+
+}
+
+.beast-modal img {
+    max-width: 80%;
+    padding: 3rem;
+    background-color: mediumaquamarine;
+    border-radius: 10%;
+    
 }
