@@ -11,3 +11,12 @@
     font-weight: 600;
     color: blanchedalmond;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+}

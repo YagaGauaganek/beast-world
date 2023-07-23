@@ -43,7 +43,7 @@ function App() {
           <option value="100">100</option>
         </select>
       </form>
-        <Header handleBeasts={handleBeasts}/>
+        {/* <Header handleBeasts={handleBeasts}/> */}
         <Main beastData={beastData} openModal={openModal} modalContent={modalContent}/>
         <Footer />
         {showModal && <SelectedBeast modalContent={modalContent} closeModal={closeModal} />}
